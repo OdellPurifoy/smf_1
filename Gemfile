@@ -5,6 +5,9 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.7.5'
 
+# Bulma for CSS
+gem 'bulma-rails', '~> 0.9.4'
+
 # Devise for auth
 gem 'devise', '~> 4.9', '>= 4.9.3'
 
