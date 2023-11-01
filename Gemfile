@@ -5,6 +5,9 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.7.5'
 
+# Bulma for CSS
+gem 'bulma-rails', '~> 0.9.4'
+
 # Devise for auth
 gem 'devise', '~> 4.9', '>= 4.9.3'
 
@@ -52,6 +55,9 @@ gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', require: false
+
+# User for forms
+gem 'simple_form'
 
 # Use Sass to process CSS
 # gem "sassc-rails"
